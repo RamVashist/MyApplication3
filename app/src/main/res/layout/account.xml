@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/@account"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:layout_weight="3"
+        android:text="Account Settings" />
+
+    <TextView
+        android:id="@+id/@height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="Height" />
+
+    <TextView
+        android:id="@+id/weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="@android:dimen/thumbnail_width"
+        android:layout_weight="3"
+        android:baselineAligned="false"
+        android:text="Weight" />
+
+    <EditText
+        android:id="@+id/@heightValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

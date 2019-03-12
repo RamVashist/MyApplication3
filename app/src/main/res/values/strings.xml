@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WalkWay</string>
+    <string name="title_home">Home</string>
+    <string name="title_progress">Progress</string>
+    <string name="title_personaldata">Personal Data</string>
+    <string name="days">Day 1  Day 2  Day 3</string>
+    <string name="daysdistance">6 km  9 km  12 km</string>
+    <string name="totaldistance">21 km</string>
+    <string name="advice">You are doing great</string>
+</resources>
